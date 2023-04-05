@@ -1,4 +1,5 @@
 const filtering = require('./services/filtering')
+const counting = require('./services/counting')
 const data = require('./data').data
 const filterParameterRegex = /--filter=(\w+)/
 let newData = data
@@ -20,7 +21,8 @@ if (!programParameter.includes('--filter') && programParameter !== ('--count')) 
 
 // Execute counting service
 if (programParameter === '--count') {
-    console.log('COUNTING')
+    newData = counting.count(newData)
+    console.dir(newData, { depth: null }) 
     return
 }
 

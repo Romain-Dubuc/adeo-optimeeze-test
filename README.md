@@ -7,6 +7,11 @@ To filter on animal names you can use this command :
 $ node app.js --filter=<Filter value>
 ```
 
+To display the number of people each country has and the number of animals each person has, you can use this command :
+```shell script
+$ node app.js --count
+```
+
 To execute tests, use this command :
 ```shell script
 $ npm test
