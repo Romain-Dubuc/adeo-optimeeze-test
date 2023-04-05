@@ -17,6 +17,20 @@ To execute tests, use this command :
 $ npm test
 ```
 
+## Project structure
+
+### App.js
+
+`App.js` is the entry point of this project, its job is to check the given parameters and execute the correct service
+
+### Services
+
+The `services` directory contains all methods to filter and to count the data
+
+### Tests
+
+This directory contains all the tests of this project
+
 ## Subject
 
 ### Filter
