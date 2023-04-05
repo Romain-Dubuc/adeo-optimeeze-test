@@ -34,7 +34,7 @@ $ npm test
 
 ### Services
 
-The `services` directory contains all methods to filter and to count the data
+The `services` directory contains all methods to filter/count the data and the method to check parameters
 
 ### Tests
 
