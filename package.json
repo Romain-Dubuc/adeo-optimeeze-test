@@ -1,0 +1,18 @@
+{
+  "name": "adeo-optimeeze-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "adeo-optimeeze-test"
+  },
+  "author": "Romain DUBUC",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
