@@ -12,7 +12,11 @@ To display the number of people each country has and the number of animals each 
 $ node app.js --count
 ```
 
-To execute tests, use this command :
+To execute tests, you have to get project libs, if you don't have it use this command :
+```shell script
+$ npm ci
+```
+And after you can execute tests with this one :
 ```shell script
 $ npm test
 ```
