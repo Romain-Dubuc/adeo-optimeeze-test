@@ -12,6 +12,11 @@ To display the number of people each country has and the number of animals each 
 $ node app.js --count
 ```
 
+You can also use `--count` and `--filter` parameters at the same time, like this :
+```shell script
+$ node app.js --count --filter=ry
+```
+
 To execute tests, you have to get project libs, if you don't have it use this command :
 ```shell script
 $ npm ci
